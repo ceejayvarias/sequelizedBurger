@@ -1,0 +1,61 @@
+body {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	background-color: tan;
+}
+
+/*#container{
+	height: 200px;
+}
+
+#devouredBurgers {
+	display: inline-block;
+	height: 100%;
+}
+
+#submitBurger {
+	padding: 0;
+	display: inline-block;
+	height: 100%;
+}*/
+
+ul {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+    *display: inline;
+    zoom: 1;
+}
+
+form {
+	display: inline-block;
+}
+
+h1 {
+	color: grey;
+	display: inline-block;
+}
+
+#submitBurger > h2 {
+	color: red;
+	margin-bottom: 0;
+}
+
+#devouredBurgers > h2 {
+	color: gold;
+	margin-bottom: 0;
+}
+
+#addBurger > h2 {
+	color: darkblue;
+	margin-bottom: 0;
+}
+
+.form-group {
+	margin: 5px;
+}
+
+button {
+	color: green;
+}
